@@ -6,7 +6,7 @@ Resources:
     Type: 'AWS::Serverless::Function'
     Properties:
       Handler: lambda_function.lambda_handler
-      Runtime: python3.6
+      Runtime: python3.8
       CodeUri: ./
       Description: 'Lambda function for CD Demo'
       MemorySize: 128
@@ -20,4 +20,4 @@ Resources:
             Method: get
       Environment:
         Variables:
-          REGION: eu-west-2a
+          REGION: ap-northeast-1
