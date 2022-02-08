@@ -104,7 +104,7 @@
 			"Action": [
 				"codedeploy:GetDeploymentConfig"
 			],
-			"Resource": [0
+			"Resource": [
 				"arn:aws:codedeploy:ap-northeast-1:876459246460:deploymentconfig:*"
 			],
 			"Effect": "Allow"
